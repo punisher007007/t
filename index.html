@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Test Page</title>
-    <style>
-        body { 
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f0f0f0;
-        }
-        h1 { 
-            color: navy;
-            text-align: center;
-        }
-        p {
-            line-height: 1.6;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>Welcome to our test page</p>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Hello World</h1>
+        <p>Welcome to our test page</p>
+        
+        <h2 id="about">About</h2>
+        <p>This is a test page demonstrating GitHub workflows and web development.</p>
+        
+        <h2 id="contact">Contact</h2>
+        <p>Get in touch with us for more information.</p>
+    </div>
+    <footer>
+        <p>Contact us: test@example.com | Phone: (555) 123-4567</p>
+    </footer>
 </body>
 </html>
